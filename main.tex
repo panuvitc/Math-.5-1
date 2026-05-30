@@ -553,6 +553,23 @@ Scale = 1.5
 	}
 }
 
+\definecolor{cambridgeblue}{HTML}{A3C1AD} % กำหนดสีด้วยรหัส HEX
+\tcbuselibrary{breakable,skins}
+\definecolor{planblue}{rgb}{0.86,0.93,0.96}
+\newtcolorbox{planbox}{
+	breakable,
+	enhanced,
+	colback=planblue,
+	colframe=cyan!50!black,
+	boxrule=0.7pt,
+	arc=2mm,
+	left=10pt,
+	right=10pt,
+	top=8pt,
+	bottom=8pt,
+	before skip=10pt,
+	after skip=10pt
+}
 \newcommand{\remark}{\noindent\textbf{\textcolor{red}{หมายเหตุ}}\,\,}
 \newcommand{\observation}{\noindent\textbf{\textcolor{blue}{ข้อสังเกต}}\,\,}
 
@@ -561,17 +578,17 @@ Scale = 1.5
 % ==========================================
 \begin{document}
 % ------------------------------------------
-% หน้าปก (Title Page) - ปรับปรุงโครงสร้างใหม่ รันผ่านแน่นอน
+% หน้าปก (Title Page) - อัปเดตข้อมูลเป็น ม.5 เล่ม 1 (พิมพ์ครั้งที่ 4)
 % ------------------------------------------
 \begin{titlepage}
 	\centering
 	
 	% ===== กำหนดสีภายในหน้าปก =====
 	\definecolor{coverblue}{HTML}{7A9D8B} % สีเขียวภูมิฐานตามที่คุณเลือก
-	\definecolor{covergray}{HTML}{2D2D2D} % สีเทาเข้มคมชัด (เอา !70 !80 ออกเพื่อให้สีเข้มเต็ม 100% อ่านง่าย)
+	\definecolor{covergray}{HTML}{2D2D2D} % สีเทาเข้มคมชัด
 	
 	% --- ส่วนบน: โลโก้คู่ ---
-	\vspace*{1.5cm}
+	\vspace*{1.0cm} 
 	\begin{minipage}{0.9\textwidth}
 		\centering
 		\includegraphics[height=3.0cm]{kku} 
@@ -581,7 +598,7 @@ Scale = 1.5
 	
 	\vfill % ใช้ vfill ดันกล่องข้อความให้อยู่กึ่งกลางหน้ากระดาษอย่างสมดุล
 	
-	% --- ส่วนกลาง: กล่องหัวเรื่องแบบไม่มี TikZ (ปลอดภัย ไร้ข้อผิดพลาด) ---
+	% --- ส่วนกลาง: กล่องหัวเรื่องแบบไม่มี TikZ ---
 	\begin{minipage}{0.85\textwidth}
 		\noindent
 		% ใช้โครงสร้างตารางทำแถบสีหนา 5pt ฝั่งซ้าย และทำกล่องพื้นหลังสีเขียวจางล้อมรอบข้อความ
@@ -603,19 +620,32 @@ Scale = 1.5
 	\end{minipage}
 	
 	\vfill 
-	\vfill 
 	
 	% --- ส่วนล่าง: ข้อมูลผู้สอน ---
 	\begin{minipage}{0.8\textwidth}
 		\centering
 		{\large อาจารย์ผู้สอน}\\[0.4cm]
 		{\huge \textbf{ดร. ภาณุวิชญ์ เชื้อพล}}\\[0.4cm]
-		\color{coverblue}\rule{0.6\textwidth}{1.2pt}\\[0.5cm] % ปรับเส้นคั่นให้เข้มและหนาขึ้นเล็กน้อยเพื่อความคมชัด
+		\color{coverblue}\rule{0.6\textwidth}{1.2pt}\\[0.5cm] 
 		{\large กลุ่มสาระการเรียนรู้คณิตศาสตร์}\\[0.2cm]
 		{\large โรงเรียนสาธิตมหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย}
 	\end{minipage}
 	
-	\vspace*{2.0cm}
+	\vfill % ดันกล่อง Disclaimer ลงไปด้านล่างสุดอย่างสวยงาม
+	
+	% --- ส่วนล่างสุด: กล่องแจ้งสิทธิ์และที่มาเนื้อหา (Global Disclaimer) ---
+	\begin{minipage}{0.85\textwidth}
+		\begin{flushleft}
+			\footnotesize % ใช้ขนาดตัวอักษรเล็กพิเศษเพื่อให้ไม่แย่งความเด่นของหน้าปก
+			\color{covergray!80} % ปรับสีตัวอักษรให้จางลงเล็กน้อยดูนุ่มตา
+			\rule{\textwidth}{0.4pt}\\[0.15cm] % เส้นคั่นบางๆ 
+			\textbf{ข้อตกลงและที่มาของเนื้อหา (Disclaimer):}\\
+			เอกสารฉบับนี้จัดทำขึ้นเพื่อประโยชน์ทางการศึกษาในการจัดกิจกรรมการเรียนรู้ในชั้นเรียนเท่านั้น โครงสร้างเนื้อหา นิยาม ทฤษฎีบท ตัวอย่าง และโจทย์ปัญหาเกือบทั้งหมดในเอกสารฉบับนี้ ดัดแปลงและเรียบเรียงมาจากหนังสือเรียนรายวิชาเพิ่มเติมคณิตศาสตร์ ชั้นมัธยมศึกษาปีที่ 5 เล่ม 1 (พิมพ์ครั้งที่ 4, พ.ศ. 2568) ของสถาบันส่งเสริมการสอนวิทยาศาสตร์และเทคโนโลยี (สสวท.) โดยผู้จัดทำได้ทำการปรับปรุงรูปแบบการจัดวางและเว้นช่องว่างสำหรับแสดงวิธีทำเพื่อความเหมาะสมในชั้นเรียน มิได้มีวัตถุประสงค์เพื่อการค้าหรือแสวงหาผลกำไรใดๆ ทั้งสิ้น\\
+			\rule{\textwidth}{0.4pt}
+		\end{flushleft}
+	\end{minipage}
+	
+	\vspace*{0.5cm} % ระยะห่างจากขอบล่างสุดของกระดาษ
 \end{titlepage}
 
 	% ==========================================
