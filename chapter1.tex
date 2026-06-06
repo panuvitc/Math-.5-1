@@ -80,6 +80,7 @@ $$\left\{(x, y) \in \mathbb{R} \times \mathbb{R} \;\middle|\; x^2 + y^2 = 1\righ
 	\label{Figure1} 
 \end{figure}
 
+\newpage
 รูปต่อไปนี้แสดงตำแหน่งของจุดปลายส่วนโค้งของวงกลมหนึ่งหน่วย เมื่อกำหนด $\theta$ ให้มีค่าต่าง ๆ กัน
 
 \begin{figure}[H] 
@@ -100,8 +101,8 @@ $$g(\theta) = y$$
 
 \vspace{0.5em}
 เรียกฟังก์ชัน $g$ และ $f$ ดังกล่าวนี้ว่า \textbf{ฟังก์ชันไซน์ (sine function)} และ \textbf{ฟังก์ชันโคไซน์ (cosine function)} ตามลำดับ และจะเขียนแทน $g$ ด้วย $\sin$ และเขียนแทน $f$ ด้วย $\cos$ ดังนี้
-$$y = \sin\theta \quad (\text{อ่านว่า วาย เท่ากับ ไซน์ทีตา})$$
-$$x = \cos\theta \quad (\text{อ่านว่า เอกซ์ เท่ากับ คอสทีตา})$$
+$$y = \sin(\theta) \quad (\text{อ่านว่า วาย เท่ากับ ไซน์ทีตา})$$
+$$x = \cos(\theta) \quad (\text{อ่านว่า เอกซ์ เท่ากับ คอสทีตา})$$
 
 \vspace{0.5em}
 วงกลมหนึ่งหน่วยซึ่งมีจุดศูนย์กลางอยู่ที่จุดกำเนิด เป็นกราฟของความสัมพันธ์
@@ -112,24 +113,25 @@ $$\left\{(x, y) \in \mathbb{R} \times \mathbb{R} \;\middle|\; x^2 + y^2 = 1\righ
 \vspace{0.5em}
 นั่นคือ เรนจ์ของฟังก์ชันไซน์และฟังก์ชันโคไซน์ คือเซตของจำนวนจริงตั้งแต่ $-1$ ถึง $1$ และโดเมนของฟังก์ชันทั้งสอง คือเซตของจำนวนจริง
 
-\vspace{0.5em}
-จากสมการ $x^2 + y^2 = 1, \; y = \sin\theta$ และ $x = \cos\theta$ จะได้ความสัมพันธ์ของ $\sin\theta$ และ $\cos\theta$ ดังนี้
-$$(\cos\theta)^2 + (\sin\theta)^2 = 1 \quad \text{เมื่อ } \theta \text{ เป็นจำนวนจริง}$$
-หรือ
-$$\cos^2\theta + \sin^2\theta = 1 \quad \text{เมื่อ } \theta \text{ เป็นจำนวนจริง}$$
 
-\vspace{1em}
+\begin{remarkbox}
+	จากสมการ $x^2 + y^2 = 1, \; y = \sin(\theta)$ และ $x = \cos(\theta)$ จะได้ความสัมพันธ์ของ $\sin(\theta)$ และ $\cos(\theta)$ ดังนี้
+$$(\cos(\theta))^2 + (\sin(\theta))^2 = 1 \quad \text{เมื่อ } \theta \text{ เป็นจำนวนจริง}$$
+หรือ
+$$\cos^2(\theta) + \sin^2(\theta) = 1 \quad \text{เมื่อ } \theta \text{ เป็นจำนวนจริง}$$
+\end{remarkbox}
+
 \remark
 \begin{itemize}
-	\item $\cos^2\theta$  หมายถึง $(\cos\theta)(\cos\theta)$ 
-	\item $\cos\theta^2$  หมายถึง $\cos$ ของจำนวนจริง $\theta^2$
+	\item $\cos^2(\theta)$  หมายถึง $\cos(\theta)\cos(\theta)$ 
+	\item $\cos(\theta)^2$  หมายถึง $\cos$ ของจำนวนจริง $\theta^2$
 \end{itemize}
 
 \newpage
 \subsection*{ค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงบางจำนวน}
-ในหัวข้อนี้จะหาค่าของ $\sin \theta$ และ $\cos \theta$ สำหรับ $\theta$ บางค่าที่สามารถหาพิกัดของจุดปลายส่วนโค้ง ที่วัดจากจุด $(1,0)$ ยาว $|\theta|$ หน่วย ได้ด้วยวิธีง่าย ๆ
+ในหัวข้อนี้จะหาค่าของ $\sin(\theta)$ และ $\cos(\theta)$ สำหรับ $\theta$ บางค่าที่สามารถหาพิกัดของจุดปลายส่วนโค้ง ที่วัดจากจุด $(1,0)$ ยาว $|\theta|$ หน่วย ได้ด้วยวิธีง่าย ๆ
 
-ถ้า $\theta=0$ จะได้ จุดปลายส่วนโค้งที่ยาว $0$ หน่วย คือ $(1,0)$ ดังรูป ดังนั้น $\sin 0=0$ และ $\cos 0=1$
+ถ้า $\theta=0$ จะได้ จุดปลายส่วนโค้งที่ยาว $0$ หน่วย คือ $(1,0)$ ดังรูป ดังนั้น $\sin(0)=0$ และ $\cos(0)=1$
 
 \begin{figure}[H] 
 	\centering 
@@ -156,7 +158,7 @@ $$\cos \left( \dfrac{3\pi}{2} \right) = 0 \quad \text{และ} \quad \cos \lef
 ต่อไปจะพิจารณาค่าของ $\sin\theta$ และ $\cos\theta$ เมื่อ $\theta$ เป็น $\dfrac{\pi}{4}, \; \dfrac{\pi}{6}$ และ $\dfrac{\pi}{3}$
 
 \newpage
-\subsection*{ค่าของ $\sin\dfrac{\pi}{4}$ และ $\cos\dfrac{\pi}{4}$}
+\subsection*{ค่าของ $\sin\left(\dfrac{\pi}{4}\right)$ และ $\cos\left(\dfrac{\pi}{4}\right)$}
 
 \begin{figure}[H] 
 	\centering 
@@ -189,17 +191,17 @@ $$x^2 = \dfrac{1}{2}$$
 $$x = \dfrac{1}{\sqrt{2}} \quad \text{หรือ} \quad x = -\dfrac{1}{\sqrt{2}}$$
 
 \vspace{0.8em}
-\noindent เนื่องจากจุด $P(x, y)$ เป็นจุดกึ่งกลางส่วนโค้งในจตุภาคที่ 1 (Quadrant I) ย่อมส่งผลให้ทั้งพิกัด $x$ และ $y$ ต้องเป็นจำนวนจริงบวกเท่านั้น 
+\noindent เนื่องจากจุด $P(x, y)$ เป็นจุดกึ่งกลางส่วนโค้งในจตุภาคที่ 1 ย่อมส่งผลให้ทั้งพิกัด $x$ และ $y$ ต้องเป็นจำนวนจริงบวกเท่านั้น 
 \\
 ดังนั้น จึงเลือกใช้เฉพาะค่าบวก ทำให้ได้ว่า
 $$x = y = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}$$
 
 \vspace{0.8em}
 \noindent สรุปได้ว่า จุดปลายส่วนโค้งที่ยาว $\dfrac{\pi}{4}$ หน่วย โดยวัดในทิศทางทวนเข็มนาฬิกา คือ จุด $\left(\dfrac{\sqrt{2}}{2}, \; \dfrac{\sqrt{2}}{2}\right)$ นั่นคือ
-$$\sin\dfrac{\pi}{4} = \dfrac{\sqrt{2}}{2} \quad \text{และ} \quad \cos\dfrac{\pi}{4} = \dfrac{\sqrt{2}}{2}$$
+$$\sin\left(\dfrac{\pi}{4}\right)  = \dfrac{\sqrt{2}}{2} \quad \text{และ} \quad \cos\left(\dfrac{\pi}{4}\right) = \dfrac{\sqrt{2}}{2}$$
 
 \newpage
-\subsection*{ค่าของ $\sin\dfrac{\pi}{6}$ และ $\cos\dfrac{\pi}{6}$}
+\subsection*{ค่าของ $\sin\left( \dfrac{\pi}{6}\right) $ และ $\cos\left( \dfrac{\pi}{6}\right)$}
 
 \begin{figure}[H] 
 	\centering 
@@ -231,7 +233,7 @@ $$(2y - 1)(y + 1) = 0$$
 $$y = \dfrac{1}{2} \quad \text{หรือ} \quad y = -1$$
 
 \vspace{0.5em}
-\noindent เนื่องจากจุด $P(x, y)$ เป็นจุดในจตุภาคที่ 1 (Quadrant I) ย่อมส่งผลให้ทั้งพิกัด $x$ และ $y$ ต้องเป็นจำนวนจริงบวกเท่านั้น 
+\noindent เนื่องจากจุด $P(x, y)$ เป็นจุดในจตุภาคที่ 1 ย่อมส่งผลให้ทั้งพิกัด $x$ และ $y$ ต้องเป็นจำนวนจริงบวกเท่านั้น 
 \\
 ดังนั้น จึงเลือกใช้เฉพาะค่าบวก ทำให้ได้ว่า
 $$y = \dfrac{1}{2}$$
@@ -242,10 +244,10 @@ $$x = \dfrac{\sqrt{3}}{2}$$
 
 \vspace{0.5em}
 \noindent สรุปได้ว่า จุดปลายส่วนโค้งที่ยาว $\dfrac{\pi}{6}$ หน่วย โดยวัดในทิศทางทวนเข็มนาฬิกา คือ จุด $\left(\dfrac{\sqrt{3}}{2}, \; \dfrac{1}{2}\right)$ นั่นคือ
-$$\sin\dfrac{\pi}{6} = \dfrac{1}{2} \quad \text{และ} \quad \cos\dfrac{\pi}{6} = \dfrac{\sqrt{3}}{2}$$
+$$\sin\left( \dfrac{\pi}{6}\right) = \dfrac{1}{2} \quad \text{และ} \quad \cos\left( \dfrac{\pi}{6}\right) = \dfrac{\sqrt{3}}{2}$$
 
 \newpage
-\subsection*{ค่าของ $\sin\dfrac{\pi}{3}$ และ $\cos\dfrac{\pi}{3}$}
+\subsection*{ค่าของ $\sin\left( \dfrac{\pi}{3}\right) $ และ $\cos\left( \dfrac{\pi}{3}\right)$}
 
 \begin{figure}[H] 
 	\centering 
@@ -254,7 +256,7 @@ $$\sin\dfrac{\pi}{6} = \dfrac{1}{2} \quad \text{และ} \quad \cos\dfrac{\pi}
 	\label{Figure5} 
 \end{figure}
 
-\noindent สำหรับการหาค่าของ $\sin\dfrac{\pi}{3}$ และ $\cos\dfrac{\pi}{3}$ สามารถพิจารณาได้ในทำนองเดียวกัน โดยให้ $Q(x, y)$ เป็นจุดปลายส่วนโค้งที่ยาว $\dfrac{\pi}{3}$ หน่วยในจตุภาคที่ 1 
+\noindent สำหรับการหาค่าของ $\sin\left( \dfrac{\pi}{3}\right)$ และ $\cos\left( \dfrac{\pi}{3}\right)$ สามารถพิจารณาได้ในทำนองเดียวกัน โดยให้ $Q(x, y)$ เป็นจุดปลายส่วนโค้งที่ยาว $\dfrac{\pi}{3}$ หน่วยในจตุภาคที่ 1 
 
 \vspace{0.5em}
 \noindent เนื่องจากส่วนโค้ง $AQ$ ยาว $\dfrac{\pi}{3}$ หน่วย ทำให้ส่วนโค้งที่เหลือ $QB$ ยาว $\dfrac{\pi}{2} - \dfrac{\pi}{3} = \dfrac{\pi}{6}$ หน่วย 
@@ -264,7 +266,7 @@ $$x = \dfrac{1}{2} \quad \text{และ} \quad y = \dfrac{\sqrt{3}}{2}$$
 
 \vspace{0.5em}
 \noindent สรุปได้ว่า จุดปลายส่วนโค้งที่ยาว $\dfrac{\pi}{3}$ หน่วย โดยวัดในทิศทางทวนเข็มนาฬิกา คือ จุด $\left(\dfrac{1}{2}, \; \dfrac{\sqrt{3}}{2}\right)$ นั่นคือ
-$$\sin\dfrac{\pi}{3} = \dfrac{\sqrt{3}}{2} \quad \text{และ} \quad \cos\dfrac{\pi}{3} = \dfrac{1}{2}$$
+$$\sin\left( \dfrac{\pi}{3}\right) = \dfrac{\sqrt{3}}{2} \quad \text{และ} \quad \cos\left( \dfrac{\pi}{3}\right) = \dfrac{1}{2}$$
 
 \newpage
 \subsection*{ค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงใด ๆ}
@@ -283,42 +285,35 @@ $$\sin\dfrac{\pi}{3} = \dfrac{\sqrt{3}}{2} \quad \text{และ} \quad \cos\dfr
 	\label{Figure7} 
 \end{figure}
 
-\vspace{1em}
-\noindent จากพิกัดของจุด $(x, y)$ และจุดปลายภาพสะท้อน $(x, -y)$ จะได้ว่า
-$$\cos\theta = x \quad \text{และ} \quad \sin\theta = y$$
+จากพิกัดของจุด $(x, y)$ และจุดปลายภาพสะท้อน $(x, -y)$ จะได้ว่า
+$$\cos(\theta) = x \quad \text{และ} \quad \sin(\theta) = y$$
 และ
 $$\cos(-\theta) = x \quad \text{และ} \quad \sin(-\theta) = -y$$
 
-\vspace{0.5em}
-\noindent เมื่อเปรียบเทียบพิกัดตัวแปรทั้งสองระบบ จึงสรุปเป็นความสัมพันธ์ได้ดังนี้
-$$\sin(-\theta) = -\sin\theta$$
-$$\cos(-\theta) = \cos\theta$$
+เมื่อเปรียบเทียบพิกัดตัวแปรทั้งสองระบบ จึงสรุปเป็นความสัมพันธ์ได้ดังนี้
+\begin{align*}
+\sin(-\theta) &= -\sin(\theta)\\
+\cos(-\theta) &= \cos(\theta)
+\end{align*}
 
-\vspace{1em}
-\noindent นั่นคือ ถ้าสามารถหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงบวกใด ๆ ได้ ก็จะสามารถหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงลบที่เป็นตัวผกผันการบวกของจำนวนจริงบวกนั้น ๆ ได้ด้วย
+นั่นคือ ถ้าสามารถหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงบวกใด ๆ ได้ ก็จะสามารถหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงลบที่เป็นตัวผกผันการบวกของจำนวนจริงบวกนั้น ๆ ได้ด้วย
 
+\newpage
 \begin{examplebox}
 	จงหาค่าของ $\sin\left(-\dfrac{\pi}{6}\right)$ และ $\cos\left(-\dfrac{\pi}{6}\right)$
 \end{examplebox}
 \solution
-\vspace{0.5em}
-\noindent จากสมบัติมุมผกผันและค่ามาตรฐาน เนื่องจาก $\sin\dfrac{\pi}{6} = \dfrac{1}{2}$ และ $\cos\dfrac{\pi}{6} = \dfrac{\sqrt{3}}{2}$
-\\
-จะได้
-$$\sin\left(-\dfrac{\pi}{6}\right) = -\sin\dfrac{\pi}{6} = -\dfrac{1}{2}$$
-และ
-$$\cos\left(-\dfrac{\pi}{6}\right) = \cos\dfrac{\pi}{6} = \dfrac{\sqrt{3}}{2}$$
+\vspace{5cm}
 
-\vspace{1.5em}
-\noindent เนื่องจากเส้นรอบวงของวงกลมหนึ่งหน่วยมีความยาว $2\pi$ หน่วย ดังนั้น จุดปลายของส่วนโค้งบนเส้นรอบวงของวงกลมหนึ่งหน่วยที่ยาว $2n\pi + \theta$ หน่วย จะเป็นจุดเดียวกับจุดปลายของส่วนโค้งที่ยาว $\theta$ หน่วย 
+เนื่องจากเส้นรอบวงของวงกลมหนึ่งหน่วยมีความยาว $2\pi$ หน่วย ดังนั้น จุดปลายของส่วนโค้งบนเส้นรอบวงของวงกลมหนึ่งหน่วยที่ยาว $2n\pi + \theta$ หน่วย จะเป็นจุดเดียวกับจุดปลายของส่วนโค้งที่ยาว $\theta$ หน่วย 
 
-\vspace{0.5em}
-\noindent โดยที่เมื่อ $n$ เป็นจำนวนเต็มบวก จะเป็นการวัดระยะในทิศทางทวนเข็มนาฬิกาซ้ำจำนวน $n$ รอบ แต่ถ้า $n$ เป็นจำนวนเต็มลบ จะเป็นการวัดระยะในทิศทางตามเข็มนาฬิกาซ้ำจำนวน $n$ รอบ จึงสรุปความสัมพันธ์ในกรณีทั่วไปได้ดังนี้
+
+โดยที่เมื่อ $n$ เป็นจำนวนเต็มบวก จะเป็นการวัดระยะในทิศทางทวนเข็มนาฬิกาซ้ำจำนวน $n$ รอบ แต่ถ้า $n$ เป็นจำนวนเต็มลบ จะเป็นการวัดระยะในทิศทางตามเข็มนาฬิกาซ้ำจำนวน $n$ รอบ จึงสรุปความสัมพันธ์ในกรณีทั่วไปได้ดังนี้
 
 \vspace{1em}
 \noindent เมื่อ $n$ เป็นจำนวนเต็มใด ๆ จะได้ว่า
-$$\sin(2n\pi + \theta) = \sin\theta$$
-$$\cos(2n\pi + \theta) = \cos\theta$$
+$$\sin(2n\pi + \theta) = \sin(\theta)$$
+$$\cos(2n\pi + \theta) = \cos(\theta)$$
 
 \vspace{1em}
 \noindent จากสมบัติข้างต้นนี้ จะเห็นว่าถ้าเราสามารถหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงที่มีค่าตั้งแต่ $0$ ถึง $2\pi$ ได้แล้ว ย่อมสามารถหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงทุกจำนวนบนระบบทางคณิตศาสตร์ได้เสมอ
@@ -334,7 +329,7 @@ $$\cos(2n\pi + \theta) = \cos\theta$$
 แต่เนื่องจากวงกลมหนึ่งหน่วยมีแกน $X$ และแกน $Y$ เป็นแกนสมมาตร การหาค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงตั้งแต่ $0$ ถึง $2\pi$ จึงหาได้จากค่าของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงตั้งแต่ $0$ ถึง $\dfrac{\pi}{2}$ ดังแสดงได้ดังนี้
 
 
-\subsection*{1. เมื่อจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย อยู่ในจตุภาคที่ $2$ $\left(\dfrac{\pi}{2} < \theta < \pi\right)$}
+\subsection*{1. เมื่อจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย อยู่ในจตุภาคที่ 2 $\left(\dfrac{\pi}{2} < \theta < \pi\right)$}
 
 \begin{figure}[H] 
 	\centering 
@@ -345,7 +340,7 @@ $$\cos(2n\pi + \theta) = \cos\theta$$
 
 \noindent ให้ $P^{\prime}(x^{\prime}, y^{\prime})$ เป็นจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย 
 \\
-ดังนั้น $y^{\prime} = \sin\theta$ และ $x^{\prime} = \cos\theta$
+ดังนั้น $y^{\prime} = \sin(\theta)$ และ $x^{\prime} = \cos(\theta)$
 \\
 ให้ $\alpha = \pi - \theta$ จะได้ว่า $0 < \alpha < \dfrac{\pi}{2}$
 
@@ -358,20 +353,19 @@ $$\cos(2n\pi + \theta) = \cos\theta$$
 \noindent เนื่องจาก $P(x, y)$ เป็นจุดปลายส่วนโค้งที่ยาว $\alpha$ หน่วยในจตุภาคที่ 1 
 \\
 ดังนั้น
-$$y = \sin\alpha \quad \text{และ} \quad x = \cos\alpha$$
+$$y = \sin(\alpha) \quad \text{และ} \quad x = \cos(\alpha)$$
 
 \vspace{0.3em}
 \noindent เมื่อจับคู่เทียบความสัมพันธ์กับจุดสะท้อน จะได้ว่า
-$$y^{\prime} = y \implies \sin\theta = \sin\left(\dfrac{\pi}{2} - \text{หรือการจัดรูปปกติ}\right)$$
-$$\sin\theta = \sin(\pi - \alpha) = \sin\alpha$$
+$$y^{\prime} = y \implies \sin(\theta) = \sin(\pi - \alpha) = \sin(\alpha)$$
 \\[0.3em]
 และ
-$$x^{\prime} = -x \implies \cos\theta = \cos(\pi - \alpha) = -\cos\alpha$$
+$$x^{\prime} = -x \implies \cos(\theta) = \cos(\pi - \alpha) = -\cos(\alpha)$$
 
 \vspace{1em}
 \noindent สรุปความสัมพันธ์เชิงเรขาคณิตสำหรับจตุภาคที่ 2 ได้ดังนี้
-$$\sin(\pi - \alpha) = \sin\alpha \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
-$$\cos(\pi - \alpha) = -\cos\alpha \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
+$$\sin(\pi - \alpha) = \sin(\alpha) \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
+$$\cos(\pi - \alpha) = -\cos(\alpha) \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
 
 \begin{examplebox}
 	กำหนดให้ $\sin\left(\dfrac{\pi}{12}\right) \approx \dfrac{13}{50}$ จงหาค่าประมาณของ
@@ -384,7 +378,7 @@ $$\cos(\pi - \alpha) = -\cos\alpha \quad \text{เมื่อ} \quad 0 < \alpha
 
 \newpage
 
-\subsection*{2. เมื่อจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย อยู่ในจตุภาคที่ $3$ $\left(\pi < \theta < \dfrac{3\pi}{2}\right)$}
+\subsection*{2. เมื่อจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย อยู่ในจตุภาคที่ 3 $\left(\pi < \theta < \dfrac{3\pi}{2}\right)$}
 
 \begin{figure}[H] 
 	\centering 
@@ -395,7 +389,7 @@ $$\cos(\pi - \alpha) = -\cos\alpha \quad \text{เมื่อ} \quad 0 < \alpha
 
 \noindent ให้ $P^{\prime}(x^{\prime}, y^{\prime})$ เป็นจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย 
 \\
-ดังนั้น $y^{\prime} = \sin\theta$ และ $x^{\prime} = \cos\theta$
+ดังนั้น $y^{\prime} = \sin(\theta)$ และ $x^{\prime} = \cos(\theta)$
 \\
 ให้ $\alpha = \theta - \pi$ จะได้ว่า $0 < \alpha < \dfrac{\pi}{2}$
 
@@ -410,21 +404,21 @@ $$\cos(\pi - \alpha) = -\cos\alpha \quad \text{เมื่อ} \quad 0 < \alpha
 \noindent เนื่องจากจุด $P(x, y)$ เป็นจุดปลายส่วนโค้งที่ยาว $\alpha$ หน่วยในจตุภาคที่ 1
 \\
 ดังนั้น 
-$$y = \sin\alpha \quad \text{และ} \quad x = \cos\alpha$$
+$$y = \sin(\alpha) \quad \text{และ} \quad x = \cos(\alpha)$$
 
 \vspace{0.3em}
 \noindent เมื่อพิจารณาความสัมพันธ์ร่วมกับพิกัดจุดสะท้อนข้ามสองแกน จะได้ว่า
-$$y^{\prime} = -y \implies \sin\theta = -\sin\alpha$$
-$$\sin\left(\pi + \alpha\right) = -\sin\alpha$$
+$$y^{\prime} = -y \implies \sin(\theta) = -\sin(\alpha)$$
+$$\sin(\pi + \alpha) = -\sin(\alpha)$$
 \\[0.3em]
 และ
-$$x^{\prime} = -x \implies \cos\theta = -\cos\alpha$$
-$$\cos\left(\pi + \alpha\right) = -\cos\alpha$$
+$$x^{\prime} = -x \implies \cos(\theta) = -\cos(\alpha)$$
+$$\cos(\pi + \alpha) = -\cos(\alpha)$$
 
 \vspace{1em}
 \noindent สรุปความสัมพันธ์เชิงเรขาคณิตสำหรับจตุภาคที่ 3 ได้ดังนี้
-$$\sin\left(\pi + \alpha\right) = -\sin\alpha \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
-$$\cos\left(\pi + \alpha\right) = -\cos\alpha \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
+$$\sin(\pi + \alpha) = -\sin(\alpha) \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
+$$\cos(\pi + \alpha) = -\cos(\alpha) \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
 
 \begin{examplebox}
 	กำหนดให้ $\sin\left(\dfrac{\pi}{18}\right) \approx \dfrac{17}{100}$ จงหาค่าประมาณของ
@@ -436,7 +430,7 @@ $$\cos\left(\pi + \alpha\right) = -\cos\alpha \quad \text{เมื่อ} \quad
 \solution
 
 \newpage
-\subsection*{3. เมื่อจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย อยู่ในจตุภาคที่ $4$ $\left(\dfrac{3\pi}{2} < \theta < 2\pi\right)$}
+\subsection*{3. เมื่อจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย อยู่ในจตุภาคที่ 4 $\left(\dfrac{3\pi}{2} < \theta < 2\pi\right)$}
 
 \begin{figure}[H] 
 	\centering 
@@ -447,7 +441,7 @@ $$\cos\left(\pi + \alpha\right) = -\cos\alpha \quad \text{เมื่อ} \quad
 
 \noindent ให้ $P^{\prime}(x^{\prime}, y^{\prime})$ เป็นจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย 
 \\
-ดังนั้น $y^{\prime} = \sin\theta$ และ $x^{\prime} = \cos\theta$
+ดังนั้น $y^{\prime} = \sin(\theta)$ และ $x^{\prime} = \cos(\theta)$
 \\
 ให้ $\alpha = 2\pi - \theta$ จะได้ว่า $0 < \alpha < \dfrac{\pi}{2}$
 
@@ -462,21 +456,21 @@ $$\cos\left(\pi + \alpha\right) = -\cos\alpha \quad \text{เมื่อ} \quad
 \noindent เนื่องจากจุด $P(x, y)$ เป็นจุดปลายส่วนโค้งที่ยาว $\alpha$ หน่วยในจตุภาคที่ 1
 \\
 ดังนั้น 
-$$y = \sin\alpha \quad \text{และ} \quad x = \cos\alpha$$
+$$y = \sin(\alpha) \quad \text{และ} \quad x = \cos(\alpha)$$
 
 \vspace{0.3em}
 \noindent เมื่อพิจารณาความสัมพันธ์ร่วมกับพิกัดจุดสะท้อนข้ามแกน $X$ จะได้ว่า
-$$y^{\prime} = -y \implies \sin\theta = -\sin\alpha$$
-$$\sin\left(2\pi - \alpha\right) = -\sin\alpha$$
+$$y^{\prime} = -y \implies \sin(\theta) = -\sin(\alpha)$$
+$$\sin(2\pi - \alpha) = -\sin(\alpha)$$
 \\[0.3em]
 และ
-$$x^{\prime} = x \implies \cos\theta = \cos\alpha$$
-$$\cos\left(2\pi - \alpha\right) = \cos\alpha$$
+$$x^{\prime} = x \implies \cos(\theta) = \cos(\alpha)$$
+$$\cos(2\pi - \alpha) = \cos(\alpha)$$
 
 \vspace{1em}
 \noindent สรุปความสัมพันธ์เชิงเรขาคณิตสำหรับจตุภาคที่ 4 ได้ดังนี้
-$$\sin\left(2\pi - \alpha\right) = -\sin\alpha \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
-$$\cos\left(2\pi - \alpha\right) = \cos\alpha \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
+$$\sin(2\pi - \alpha) = -\sin(\alpha) \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
+$$\cos(2\pi - \alpha) = \cos(\alpha) \quad \text{เมื่อ} \quad 0 < \alpha < \dfrac{\pi}{2}$$
 
 \begin{examplebox}
 จงหาค่าของฟังก์ชันไซน์และโคไซน์ของ $\dfrac{11 \pi}{6}$
@@ -515,21 +509,21 @@ $$\cos\left(2\pi - \alpha\right) = \cos\alpha \quad \text{เมื่อ} \quad
  \item ให้ $\sin \left( \theta \right) = 0.56$ จงหาว่าจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย จะอยู่ในจตุภาคใดได้บ้าง
  \item ให้ $\cos \left( \theta \right) = -0.56$ จงหาว่าจุดปลายส่วนโค้งที่ยาว $\theta$ หน่วย จะอยู่ในจตุภาคใดได้บ้าง
  \item จงเขียนฟังก์ชันไซน์และโคไซน์ของจำนวนจริงต่อไปนี้ให้อยู่ในรูปของฟังก์ชันไซน์และโคไซน์ของจำนวนจริงที่อยู่ในช่วง $\left[0, \dfrac{\pi}{2}\right]$
- \begin{multicols}{2}
  	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
  		\everymath{\displaystyle}
+ 	 \begin{multicols}{2}
  		\item $\dfrac{5\pi}{3}$
  		\item $\dfrac{7\pi}{6}$
  		\item $\dfrac{9\pi}{5}$
  		\item $\dfrac{7\pi}{10}$
  		\item $-\dfrac{37\pi}{12}$
  		\item $-\dfrac{16\pi}{7}$
+ 	 \end{multicols}	
  	\end{enumerate}
- \end{multicols}
  
  \item จงหาค่าของ $\sin \left( \theta \right)$ และ $\cos \left( \theta \right)$ เมื่อ $\theta$ เป็นจำนวนจริงต่อไปนี้
- \begin{multicols}{2}
- 	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
+ \begin{multicols}{3}
+ 	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em]
  		\everymath{\displaystyle}
  		\item $-\dfrac{5\pi}{4}$
  		\item $-\dfrac{7\pi}{4}$
@@ -721,7 +715,7 @@ $$\tan(n\pi + \theta) = \tan\theta \quad \text{เมื่อ } n \text{ เป
 
 \newpage
 \subsection*{ใบงาน}
-\begin{enumerate}[label=\arabic*., leftmargin=*, itemsep=1em]
+\begin{enumerate}[label=\arabic*., leftmargin=*]
 	\item จงหาว่าจุดปลายส่วนโค้งของวงกลมหนึ่งหน่วยที่ยาว $\theta$ หน่วย จะอยู่ในจตุภาคใด เมื่อกำหนดให้
 	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
 		\everymath{\displaystyle}
@@ -733,7 +727,7 @@ $$\tan(n\pi + \theta) = \tan\theta \quad \text{เมื่อ } n \text{ เป
 	\end{enumerate}
 	
 	\item จงหาค่าของฟังก์ชันตรีโกณมิติทุกฟังก์ชันของจำนวนจริงต่อไปนี้ (กรณีที่ไม่นิยาม จงให้เหตุผล)
-	\begin{multicols}{3}
+	\begin{multicols}{4}
 		\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
 			\everymath{\displaystyle}
 			\item $0$
@@ -756,12 +750,29 @@ $$\tan(n\pi + \theta) = \tan\theta \quad \text{เมื่อ } n \text{ เป
 			\item $-2\pi$
 		\end{enumerate}
 	\end{multicols}
-	
+	\item กำหนดให้ $\dfrac{\pi}{2} < \theta < \pi$ และ $\sin \left( \theta \right) = \dfrac{60}{61}$ จงหาค่าของ
+	\begin{multicols}{2}
+	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
+		\everymath{\displaystyle}
+		\item $\sin \left( 2\pi - \theta \right)$
+		\item $\operatorname{cosec} \left( -\theta \right)$
+		\item $\cos \left( 2\pi - \theta \right)$
+		\item $\tan \left( 3\pi + \theta \right)$
+		\item $\cot \left( \pi - \theta \right)$
+		\item $\sec \left( \theta - 2\pi \right)$
+	\end{enumerate}
+	\end{multicols}
 	\item กำหนดให้ $0 \leq \theta \leq \dfrac{\pi}{2}$ และ $\sin \left( \theta \right) = 0.6$ จงหาค่าของฟังก์ชันตรีโกณมิติอื่น ๆ ของ $\theta$
 	
 	\item กำหนดให้ $0 \leq \theta \leq \dfrac{\pi}{2}$ และ $\sin \left( \theta \right) = \dfrac{4}{5}$ จงหาค่าของ $\sec \left( \theta \right) + \operatorname{cosec} \left( \theta \right)$
 	
 	\item กำหนดให้ $0 \leq \theta \leq \dfrac{\pi}{2}$ และ $\tan \left( \theta \right) = \dfrac{1}{3}$ จงหาค่าของ $2 \cos \left( \theta \right) + \cot \left( \theta \right)$
+	
+	\item กำหนดให้ $0 \leq \theta \leq \dfrac{\pi}{2}$ และ $\cot \left( \theta \right) = \dfrac{8}{15}$ จงหาค่าของ $\cos \left( \theta \right) + \operatorname{cosec} \left( \theta \right)$
+	
+	\item กำหนดให้ $\dfrac{\pi}{2} \leq \theta \leq \pi$ และ $\cos \left( \theta \right) = -\dfrac{35}{37}$ จงหาค่าของ $\sec \left( \theta \right) + \tan \left( \theta \right)$
+	
+	\item กำหนดให้ $\dfrac{3\pi}{2} \leq \theta \leq 2\pi$ และ $\tan \left( \theta \right) = -\dfrac{1}{6}$ จงหาค่าของ $\cot \left( \theta \right) - \cos \left( \theta \right)$
 	
 	\item จงหาค่าของ
 	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
@@ -771,6 +782,12 @@ $$\tan(n\pi + \theta) = \tan\theta \quad \text{เมื่อ } n \text{ เป
 		\item $\sin \left( \dfrac{3\pi}{2} \right) + \tan \left( \pi \right) \cos \left( \dfrac{\pi}{2} \right) - \cot \left( \dfrac{5\pi}{6} \right) - \sin \left( \dfrac{7\pi}{6} \right)$
 		\item $\cos \left( \dfrac{\pi}{2} \right) - \sin \left( \dfrac{5\pi}{3} \right) + \tan \left( \dfrac{9\pi}{4} \right) - \cos \left( \dfrac{5\pi}{6} \right) + \tan \left( \dfrac{7\pi}{6} \right)$
 		\item $\sin \left( \dfrac{5\pi}{6} \right) + \tan \left( \dfrac{7\pi}{6} \right) - \cos \left( \dfrac{3\pi}{4} \right) \sin \left( \dfrac{4\pi}{3} \right)$
+
+		\item $\sec \left( \dfrac{5\pi}{6} \right) + \operatorname{cosec} \left( \dfrac{7\pi}{3} \right) - \cos \left( \dfrac{4\pi}{3} \right)$
+		\item $\sin \left( -\dfrac{7\pi}{6} \right) + \cos \left( -\dfrac{\pi}{3} \right) + \tan \left( \dfrac{5\pi}{4} \right)$
+		\item $\sin \left( \dfrac{2\pi}{3} \right) \cos \left( \dfrac{2\pi}{3} \right) - \cot \left( -\dfrac{\pi}{6} \right) \tan \left( \dfrac{2\pi}{6} \right)$
+		\item $\tan^{2} \left( \dfrac{\pi}{12} \right) + \cot^{2} \left( \dfrac{11\pi}{12} \right) - \sec^{2} \left( \dfrac{23\pi}{12} \right) - \operatorname{cosec}^{2} \left( \dfrac{13\pi}{12} \right)$
+
 	\end{enumerate}
 	
 	\item จงพิจารณาแต่ละข้อต่อไปนี้ว่าเป็นจริงหรือเท็จ
@@ -1675,14 +1692,14 @@ $$
 \newpage
 จากค่าของ $\sin (\alpha+\beta)$, $\sin (\alpha-\beta)$, $\cos (\alpha+\beta)$ และ $\cos (\alpha-\beta)$ เมื่อนำมาบวกหรือลบกันจะได้ ความสัมพันธ์ที่สำคัญดังต่อไปนี้
 
-$$
+\[
 \begin{aligned}
-	2 \sin \alpha \cos \beta & = \sin (\alpha+\beta)+\sin (\alpha-\beta) \\
-	2 \cos \alpha \sin \beta & = \sin (\alpha+\beta)-\sin (\alpha-\beta) \\
-	2 \cos \alpha \cos \beta & = \cos (\alpha+\beta)+\cos (\alpha-\beta) \\
-	2 \sin \alpha \sin \beta & = \cos (\alpha-\beta)-\cos (\alpha+\beta)
+	2 \sin(\alpha) \cos(\beta) & = \sin(\alpha + \beta) + \sin(\alpha - \beta) \\
+	2 \cos(\alpha) \sin(\beta) & = \sin(\alpha + \beta) - \sin(\alpha - \beta) \\
+	2 \cos(\alpha) \cos(\beta) & = \cos(\alpha + \beta) + \cos(\alpha - \beta) \\
+	2 \sin(\alpha) \sin(\beta) & = \cos(\alpha - \beta) - \cos(\alpha + \beta)
 \end{aligned}
-$$
+\]
 
 \begin{examplebox}
 จงหาค่าของ $\cos 75^{\circ} \sin 525^{\circ}$
@@ -1692,14 +1709,14 @@ $$
 
 นอกจากนี้ยังสามารถหาความสัมพันธ์อื่น ๆ ได้ดังนี้
 
-$$
+\[
 \begin{aligned}
-	\sin \alpha+\sin \beta & = 2 \sin \left( \dfrac{\alpha+\beta}{2} \right) \cos \left( \dfrac{\alpha-\beta}{2} \right) \\
-	\sin \alpha-\sin \beta & = 2 \cos \left( \dfrac{\alpha+\beta}{2} \right) \sin \left( \dfrac{\alpha-\beta}{2} \right) \\
-	\cos \alpha+\cos \beta & = 2 \cos \left( \dfrac{\alpha+\beta}{2} \right) \cos \left( \dfrac{\alpha-\beta}{2} \right) \\
-	\cos \alpha-\cos \beta & = -2 \sin \left( \dfrac{\alpha+\beta}{2} \right) \sin \left( \dfrac{\alpha-\beta}{2} \right)
+	\sin(\alpha) + \sin(\beta) & = 2 \sin\left( \dfrac{\alpha+\beta}{2} \right) \cos\left( \dfrac{\alpha-\beta}{2} \right) \\
+	\sin(\alpha) - \sin(\beta) & = 2 \cos\left( \dfrac{\alpha+\beta}{2} \right) \sin\left( \dfrac{\alpha-\beta}{2} \right) \\
+	\cos(\alpha) + \cos(\beta) & = 2 \cos\left( \dfrac{\alpha+\beta}{2} \right) \cos\left( \dfrac{\alpha-\beta}{2} \right) \\
+	\cos(\alpha) - \cos(\beta) & = -2 \sin\left( \dfrac{\alpha+\beta}{2} \right) \sin\left( \dfrac{\alpha-\beta}{2} \right)
 \end{aligned}
-$$
+\]
 
 \begin{examplebox}
 จงหาค่าของ $\sin 75^{\circ}+\sin 15^{\circ}$
@@ -1713,71 +1730,75 @@ $$
 \solution
 \newpage
 
-เมื่อทราบค่าของ $\sin \alpha$, $\cos \alpha$ หรือ $\tan \alpha$ จะสามารถหาค่าของฟังก์ชันตรีโกณมิติของจำนวนซึ่ง เป็นสองเท่าของ $\alpha$ ได้ โดยอาศัยค่าของ $\sin (\alpha+\beta)$, $\cos (\alpha+\beta)$ และ $\tan (\alpha+\beta)$ ตามลำดับ เช่น หาค่าของ $\sin 2 \alpha$ ได้ดังนี้
+เมื่อทราบค่าของ $\sin(\alpha)$, $\cos(\alpha)$ หรือ $\tan(\alpha)$ จะสามารถหาค่าของฟังก์ชันตรีโกณมิติของจำนวนซึ่งเป็นสองเท่าของ $\alpha$ ได้ โดยอาศัยค่าของ $\sin(\alpha+\beta)$, $\cos(\alpha+\beta)$ และ $\tan(\alpha+\beta)$ ตามลำดับ เช่น หาค่าของ $\sin(2\alpha)$ ได้ดังนี้
 \\
 เนื่องจาก
 $$
 \begin{aligned}
-	\sin 2 \alpha & = \sin (\alpha+\alpha) \\
-	& = \sin \alpha \cos \alpha+\cos \alpha \sin \alpha
+	\sin(2\alpha) & = \sin(\alpha+\alpha) \\
+	& = \sin(\alpha) \cos(\alpha) + \cos(\alpha) \sin(\alpha)
 \end{aligned}
 $$
 ดังนั้น
 $$
-\sin 2 \alpha = 2 \sin \alpha \cos \alpha
+\sin(2\alpha) = 2 \sin(\alpha) \cos(\alpha)
 $$
 
-\noindent นอกจากนี้ยังสามารถหาค่าของ $\cos 2 \alpha$ จาก $\cos (\alpha+\beta)$ ได้ดังนี้
+\newpage
+
+นอกจากนี้ยังสามารถหาค่าของ $\cos(2\alpha)$ จาก $\cos(\alpha+\beta)$ ได้ดังนี้
 $$
 \begin{aligned}
-	\cos 2 \alpha & = \cos (\alpha+\alpha) \\
-	& = \cos \alpha \cos \alpha-\sin \alpha \sin \alpha
+	\cos(2\alpha) & = \cos(\alpha+\alpha) \\
+	& = \cos(\alpha) \cos(\alpha) - \sin(\alpha) \sin(\alpha)
 \end{aligned}
 $$
 ดังนั้น
 \begin{equation*}
-	\cos 2 \alpha = \cos ^{2} \alpha-\sin ^{2} \alpha \tag{1}
+	\cos(2\alpha) = \cos^{2}(\alpha) - \sin^{2}(\alpha) \tag{1}
 \end{equation*}
 
-\noindent แทน $\cos ^{2} \alpha$ ด้วย $1-\sin ^{2} \alpha$ ใน $(1)$ จะได้
+แทน $\cos^{2}(\alpha)$ ด้วย $1 - \sin^{2}(\alpha)$ ใน $(1)$ จะได้
 $$
 \begin{aligned}
-	\cos 2 \alpha & = \left(1-\sin ^{2} \alpha\right)-\sin ^{2} \alpha \\
-	\cos 2 \alpha & = 1-2 \sin ^{2} \alpha
+	\cos(2\alpha) & = \left(1 - \sin^{2}(\alpha)\right) - \sin^{2}(\alpha) \\
+	\cos(2\alpha) & = 1 - 2 \sin^{2}(\alpha)
 \end{aligned}
 $$
-และแทน $\sin ^{2} \alpha$ ด้วย $1-\cos ^{2} \alpha$ ใน $(1)$ จะได้
+และแทน $\sin^{2}(\alpha)$ ด้วย $1 - \cos^{2}(\alpha)$ ใน $(1)$ จะได้
 $$
-\cos 2 \alpha = \cos ^{2} \alpha-\left(1-\cos ^{2} \alpha\right)
+\cos(2\alpha) = \cos^{2}(\alpha) - \left(1 - \cos^{2}(\alpha)\right)
 $$
 ดังนั้น
 $$
-\cos 2 \alpha = 2 \cos ^{2} \alpha-1
+\cos(2\alpha) = 2 \cos^{2}(\alpha) - 1
 $$
 
-\noindent และสามารถหาค่าของ $\tan 2 \alpha$ โดยใช้ $\tan (\alpha+\beta)$ ดังนี้
+\newpage
+และสามารถหาค่าของ $\tan(2\alpha)$ โดยใช้ $\tan(\alpha+\beta)$ ดังนี้
 $$
 \begin{aligned}
-	\tan 2 \alpha & = \tan (\alpha+\alpha) \\
-	& = \dfrac{\tan \alpha+\tan \alpha}{1-\tan \alpha \tan \alpha}
+	\tan(2\alpha) & = \tan(\alpha+\alpha) \\
+	& = \dfrac{\tan(\alpha) + \tan(\alpha)}{1 - \tan(\alpha) \tan(\alpha)}
 \end{aligned}
 $$
 ดังนั้น
 $$
-\tan 2 \alpha = \dfrac{2 \tan \alpha}{1-\tan ^{2} \alpha} \quad \text{เมื่อ } \tan ^{2} \alpha \neq 1
+\tan(2\alpha) = \dfrac{2 \tan(\alpha)}{1 - \tan^{2}(\alpha)} \quad \text{เมื่อ } \tan^{2}(\alpha) \neq 1
 $$
 
-\vspace{0.5em}
-\noindent สรุปความสัมพันธ์ที่กล่าวมาได้ดังนี้
-$$
+สรุปความสัมพันธ์ที่กล่าวมาได้ดังนี้
+\begin{remarkbox}
+	\[
 \begin{aligned}
-	\sin 2 \alpha & = 2 \sin \alpha \cos \alpha \\
-	\cos 2 \alpha & = \cos ^{2} \alpha-\sin ^{2} \alpha \\
-	\cos 2 \alpha & = 1-2 \sin ^{2} \alpha \\
-	\cos 2 \alpha & = 2 \cos ^{2} \alpha-1 \\
-	\tan 2 \alpha & = \dfrac{2 \tan \alpha}{1-\tan ^{2} \alpha} \quad \text{เมื่อ } \tan ^{2} \alpha \neq 1
+	\sin(2\alpha) & = 2 \sin(\alpha) \cos(\alpha) \\
+	\cos(2\alpha) & = \cos^{2}(\alpha) - \sin^{2}(\alpha) \\
+	\cos(2\alpha) & = 1 - 2 \sin^{2}(\alpha) \\
+	\cos(2\alpha) & = 2 \cos^{2}(\alpha) - 1 \\
+	\tan(2\alpha) & = \dfrac{2 \tan(\alpha)}{1 - \tan^{2}(\alpha)} \quad \text{เมื่อ } \tan^{2}(\alpha) \neq 1
 \end{aligned}
-$$
+\]
+\end{remarkbox}
 
 \newpage
 
@@ -1887,6 +1908,7 @@ $$
 	\item จงแสดงว่า
 	\begin{enumerate}[label=\theenumi\arabic*), leftmargin=1.5em, itemsep=0.6em]
 		\everymath{\displaystyle}
+	\begin{multicols}{2}
 		\item $\sin \left( \dfrac{\pi}{2} + \theta \right) = \cos \left( \theta \right)$
 		\item $\cos \left( \dfrac{\pi}{2} + \theta \right) = -\sin \left( \theta \right)$
 		\item $\cos \left( \dfrac{3\pi}{2} - \theta \right) = -\sin \left( \theta \right)$
@@ -1895,6 +1917,7 @@ $$
 		\item $\cot \left( 90^{\circ} - B \right) = \tan \left( B \right)$
 		\item $\operatorname{cosec} \left( 90^{\circ} - B \right) = \sec \left( B \right)$
 		\item $\cos \left( 270^{\circ} - A \right) = -\sin \left( A \right)$
+		\end{multicols}
 		\item $\tan \left( \alpha - \beta \right) = \dfrac{\tan \left( \alpha \right) - \tan \left( \beta \right)}{1 + \tan \left( \alpha \right) \tan \left( \beta \right)}$ เมื่อ $\tan \left( \alpha \right) \tan \left( \beta \right) \neq -1$
 		\item $\dfrac{\cos \left( \alpha + \beta \right)}{\cos \left( \alpha \right) \cos \left( \beta \right)} = 1 - \tan \left( \alpha \right) \tan \left( \beta \right)$ เมื่อ $\cos \left( \alpha \right) \cos \left( \beta \right) \neq 0$
 		\item $\sin \left( \alpha + \beta \right) + \sin \left( \alpha - \beta \right) = 2 \sin \left( \alpha \right) \cos \left( \beta \right)$
