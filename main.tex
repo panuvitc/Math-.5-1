@@ -1,4 +1,4 @@
-\documentclass[a4paper,oneside,12pt]{book}
+\documentclass[a4paper,oneside,12pt,draft]{book}
 \usepackage{geometry}
 \geometry{top=15mm, left=10mm, right=10mm, bottom=15mm}
 \usepackage{amsmath}  % สำคัญมาก: ช่วยให้ใช้งานคำสั่ง \text{} ในสูตรคณิตศาสตร์ได้
@@ -82,6 +82,32 @@
 	\DeclareMathOperator{\cosec}{cosec}
 	
 	
+% --- ส่วนตั้งค่าคำสั่งสำหรับ Case ---
+\newcounter{casecounter}
+\newcounter{subcasecounter}[casecounter]
+
+% ตั้งค่าการแสดงผลตัวเลข
+\renewcommand{\thecasecounter}{\arabic{casecounter}}
+\renewcommand{\thesubcasecounter}{\thecasecounter.\arabic{subcasecounter}}
+
+% คำสั่ง \case (ตัวหนาปกติ)
+\newcommand{\case}{%
+	\stepcounter{casecounter}%
+	\par\vspace{0.5em}\noindent\textbf{\underline{กรณีที่ \thecasecounter}:}\,
+}
+
+% คำสั่ง \subcase (ตัวเอียง)
+\newcommand{\subcase}{%
+	\stepcounter{subcasecounter}%
+	\par\noindent\hspace{2em}\textit{\textbf{กรณีย่อยที่ \thesubcasecounter:}}\,
+}
+
+% คำสั่ง \newcase เพื่อรีเซ็ตเลขกรณีให้เริ่ม 1 ใหม่
+\newcommand{\newcase}{%
+	\setcounter{casecounter}{0}%
+	\setcounter{subcasecounter}{0}%
+}
+
 	
 	%\setdefaultlanguage{thai}
 	%\setotherlanguage{english}
